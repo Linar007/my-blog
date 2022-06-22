@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <input value="Привет" class="hello-message input" id="hello-message" />
+
+    <h1>Пикап</h1>
+
+    <ul>
+      <li>Постричся</li>
+      <li>Сказать привет</li>
+      <li>Взять номер</li>
+    </ul>
+
+    <script>
+      var helloMessageElement;
+      var helloMessageId = "hello-message";
+      helloMessageElement = document.getElementById(helloMessageId);
+
+      window.alert(helloMessageElement.value);
+    </script>
+  </body>
+</html>
